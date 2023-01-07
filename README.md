@@ -11,3 +11,6 @@ conda create -n mp-vos python=3.6
 
 ### Download Datasets
 In the paper, we use the following three public available dataset for training. Here are some steps to prepare the data:
+
+### Prepare Optical Flow
+Please following the the instruction of [RAFT](https://github.com/princeton-vl/RAFT) to prepare the optical flow. 
