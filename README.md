@@ -6,3 +6,8 @@ The training and testing experiments are conducted using PyTorch 1.8.1 with two 
 ```
 conda create -n mp-vos python=3.6
 ```
+
+## Train
+
+### Download Datasets
+In the paper, we use the following three public available dataset for training. Here are some steps to prepare the data:
