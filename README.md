@@ -7,6 +7,11 @@ The training and testing experiments are conducted using PyTorch 1.8.1 with two 
 conda create -n mp-vos python=3.6
 ```
 
+Other minor Python modules can be installed by running
+```
+pip install -r requirements.txt
+```
+
 ## Train
 
 ### Download Datasets
@@ -52,3 +57,7 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 t
 ```
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py --finetune first_stage_weight_path
 ```
+
+## Test
+
+## Segmentation Results
