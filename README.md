@@ -41,3 +41,4 @@ The structure of datasets is as follows:
       |—— images
       |—— labels    
 ```
+For convenience, we provide processed data in -[BaiduPan]() to train the model fastly.
