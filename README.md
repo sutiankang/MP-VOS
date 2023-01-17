@@ -21,11 +21,23 @@ The structure of datasets is as follows:
 |—— Datasets
   |—— YouTubeVOS2018
     |—— train
+      |—— images
+      |—— labels
     |—— val
+      |—— images
+      |—— labels    
   |—— DAVIS-2016
     |—— train
+      |—— images
+      |—— labels    
     |—— val
+      |—— images
+      |—— labels    
   |—— FBMS
     |—— train
+      |—— images
+      |—— labels    
     |—— val
+      |—— images
+      |—— labels    
 ```
