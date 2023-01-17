@@ -20,8 +20,12 @@ The structure of datasets is as follows:
 ```
 |—— Datasets
   |—— YouTubeVOS2018
-  
+    |—— train
+    |—— val
   |—— DAVIS-2016
-  
+    |—— train
+    |—— val
   |—— FBMS
+    |—— train
+    |—— val
 ```
