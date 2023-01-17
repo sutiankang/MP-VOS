@@ -18,5 +18,10 @@ In the paper, we use the following three public available dataset for training. 
 
 The structure of datasets is as follows:
 ```
-|--Datasets
+|—— Datasets
+  |—— YouTubeVOS2018
+  
+  |—— DAVIS-2016
+  
+  |—— FBMS
 ```
