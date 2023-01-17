@@ -16,4 +16,7 @@ In the paper, we use the following three public available dataset for training. 
 - [YouTubeVOS-2018](https://youtube-vos.org/dataset/): We sample the training data every 5 frames in YoutubeVOS-2018. You can sample any number of frames to train the model by modifying parameter ```--stride```.
 - [FBMS](https://lmb.informatik.uni-freiburg.de/resources/datasets/moseg.en.html): We use all the data in the train subset of FBMS.
 
-For
+The structure of datasets is as follows:
+```
+|--Datasets
+```
