@@ -24,7 +24,7 @@ In the paper, we use the following three public available dataset for training. 
 The structure of datasets is as follows:
 ```
 |—— Datasets
-  |—— YouTubeVOS2018
+  |—— YouTubeVOS-2018
     |—— train
       |—— images
         |—— 00000.jpg
