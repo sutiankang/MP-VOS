@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+tensorboard
+termcolor
+opencv-python
+tqdm
+einops
+numpy
