@@ -51,11 +51,11 @@ For convenience, we provide processed data in [BaiduPan]() to train the model fa
 ### Train
 - First, train the model using the YouTubeVOS-2018.
 ```
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py --sync_bn --pretrained
 ```
 - Second, finetune the model using the DAVIS-2016.
 ```
-CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py --finetune first_stage_weight_path
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py --sync_bn --finetune first_stage_weight_path
 ```
 
 ## Test
