@@ -69,9 +69,3 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 t
 ```
 python test.py --weights model_weight_path --save_dir save_results_path --use_flip -v test_datasets
 ```
-
-## Citation
-If you find MP-VOS useful for your research, please consider citing the following papers:
-```
-
-```
