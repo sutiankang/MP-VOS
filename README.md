@@ -27,7 +27,13 @@ The structure of datasets is as follows:
   |—— YouTubeVOS2018
     |—— train
       |—— images
+        |—— 00000.jpg
+        |—— 00005.jpg
+        |—— ...
       |—— labels
+        |—— 00000.png
+        |—— 00005.png
+        |—— ...
     |—— val
       |—— images
       |—— labels    
@@ -46,7 +52,6 @@ The structure of datasets is as follows:
       |—— images
       |—— labels    
 ```
-For convenience, we provide processed data in [BaiduPan]() to train the model fastly.
 
 ### Train
 - First, train the model using the YouTubeVOS-2018.
